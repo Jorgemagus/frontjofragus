@@ -24,7 +24,7 @@ export default function Register() {
 
     const onFormSubmit = async (event) => {
         event.preventDefault()
-        const urlServer = "http://localhost:3001";
+        const urlServer = "https://backjofragus-production.up.railway.app";
         const endpoint = "/user/register";
 
         try {

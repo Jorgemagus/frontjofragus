@@ -19,7 +19,7 @@ export default function PackageUpdate() {
     const [showModal, setShowModal] = useState(false);
 
     const getAllPackages = async () => {
-        const urlServer = "http://localhost:3001";
+        const urlServer = "https://backjofragus-production.up.railway.app";
         const endpoint = "/package/allPackages";
         try {
             const respuesta = await axios.get(urlServer + endpoint);

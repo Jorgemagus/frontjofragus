@@ -22,7 +22,7 @@ export default function AllPackagesUpdate({ tour }) {
     const onFormSubmit = async (event) => {
         event.preventDefault()
         console.log("onform")
-        const urlServer = "http://localhost:3001";
+        const urlServer = "https://backjofragus-production.up.railway.app";
         const endpoint = `/package/${tour && tour.id}`;
         console.log("onform 2")
         try {

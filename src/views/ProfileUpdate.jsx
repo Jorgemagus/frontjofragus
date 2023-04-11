@@ -21,7 +21,7 @@ export default function ProfileUpdate() {
 
     const onFormSubmit = async () => {
 
-        const urlServer = "http://localhost:3001";
+        const urlServer = "https://backjofragus-production.up.railway.app";
         const endpoint = `/user/${userData && userData.id}`;
 
         try {
